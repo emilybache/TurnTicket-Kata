@@ -16,10 +16,11 @@ def next_turn_number():
         yield _turnNumber
 
 
+_ticket_provider = next_turn_number()
+
+
 class TicketDispenser:
-    def __init__(self, ticket_provider=None):
-        self.ticket_provider = ticket_provider or next_turn_number()
     def next_turn_ticket(self):
-        next_turn_number = self.ticket_provider.__next__()
+        next_turn_number = _ticket_provider.__next__()
         ticket = TurnTicket(next_turn_number)
         return ticket
