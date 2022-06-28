@@ -1,0 +1,34 @@
+bin/
+obj/
+_ReSharper*/
+CSharp/.vs/
+CSharp/packages/
+
+# NCrunch
+CSharp/_NCrunch_*
+CSharp/.*crunch*.local.xml
+
+*.suo
+*.user
+.DS_Store
+*.pyc
+.idea
+scala/target
+scala/project/target
+*.iml
+
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
