@@ -1,4 +1,9 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 
-print("Hello, world!")
+let dispenser = TicketDispenser()
+
+print("Dispensing new ticket:", dispenser.getTurnTicket().turnNumber)
+print("Dispensing new ticket:", dispenser.getTurnTicket().turnNumber)
+print("Dispensing new ticket:", dispenser.getTurnTicket().turnNumber)
+print("Dispensing new ticket:", dispenser.getTurnTicket().turnNumber)
